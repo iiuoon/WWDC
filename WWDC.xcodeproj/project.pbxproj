@@ -13,6 +13,7 @@
 		95A5E1992B60188300DD2ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A5E1982B60188300DD2ED4 /* Assets.xcassets */; };
 		95A5E19C2B60188300DD2ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A5E19A2B60188300DD2ED4 /* LaunchScreen.storyboard */; };
 		95A5E1B32B60226300DD2ED4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95A5E1B22B60226300DD2ED4 /* SnapKit */; };
+		95A5E1B62B6022A700DD2ED4 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 95A5E1B52B6022A700DD2ED4 /* Then */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95A5E1B32B60226300DD2ED4 /* SnapKit in Frameworks */,
+				95A5E1B62B6022A700DD2ED4 /* Then in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +86,7 @@
 			name = WWDC;
 			packageProductDependencies = (
 				95A5E1B22B60226300DD2ED4 /* SnapKit */,
+				95A5E1B52B6022A700DD2ED4 /* Then */,
 			);
 			productName = WWDC;
 			productReference = 95A5E18C2B60188200DD2ED4 /* WWDC.app */;
@@ -115,6 +118,7 @@
 			mainGroup = 95A5E1832B60188200DD2ED4;
 			packageReferences = (
 				95A5E1B12B60226300DD2ED4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				95A5E1B42B6022A700DD2ED4 /* XCRemoteSwiftPackageReference "Then" */,
 			);
 			productRefGroup = 95A5E18D2B60188200DD2ED4 /* Products */;
 			projectDirPath = "";
@@ -365,6 +369,14 @@
 				minimumVersion = 5.7.0;
 			};
 		};
+		95A5E1B42B6022A700DD2ED4 /* XCRemoteSwiftPackageReference "Then" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/devxoul/Then";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -372,6 +384,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 95A5E1B12B60226300DD2ED4 /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		95A5E1B52B6022A700DD2ED4 /* Then */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 95A5E1B42B6022A700DD2ED4 /* XCRemoteSwiftPackageReference "Then" */;
+			productName = Then;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
