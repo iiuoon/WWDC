@@ -14,6 +14,8 @@
 		95A5E19C2B60188300DD2ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A5E19A2B60188300DD2ED4 /* LaunchScreen.storyboard */; };
 		95A5E1B32B60226300DD2ED4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 95A5E1B22B60226300DD2ED4 /* SnapKit */; };
 		95A5E1B62B6022A700DD2ED4 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 95A5E1B52B6022A700DD2ED4 /* Then */; };
+		95A5E1B82B6022C400DD2ED4 /* LiveTextDisableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5E1B72B6022C400DD2ED4 /* LiveTextDisableViewController.swift */; };
+		95A5E1BA2B6022D300DD2ED4 /* LiveTextEnableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A5E1B92B6022D300DD2ED4 /* LiveTextEnableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		95A5E1982B60188300DD2ED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95A5E19B2B60188300DD2ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95A5E19D2B60188300DD2ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95A5E1B72B6022C400DD2ED4 /* LiveTextDisableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextDisableViewController.swift; sourceTree = "<group>"; };
+		95A5E1B92B6022D300DD2ED4 /* LiveTextEnableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveTextEnableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				95A5E18F2B60188200DD2ED4 /* AppDelegate.swift */,
 				95A5E1912B60188200DD2ED4 /* SceneDelegate.swift */,
 				95A5E1932B60188200DD2ED4 /* ViewController.swift */,
+				95A5E1B72B6022C400DD2ED4 /* LiveTextDisableViewController.swift */,
+				95A5E1B92B6022D300DD2ED4 /* LiveTextEnableViewController.swift */,
 				95A5E1982B60188300DD2ED4 /* Assets.xcassets */,
 				95A5E19A2B60188300DD2ED4 /* LaunchScreen.storyboard */,
 				95A5E19D2B60188300DD2ED4 /* Info.plist */,
@@ -146,8 +152,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95A5E1BA2B6022D300DD2ED4 /* LiveTextEnableViewController.swift in Sources */,
 				95A5E1942B60188200DD2ED4 /* ViewController.swift in Sources */,
 				95A5E1902B60188200DD2ED4 /* AppDelegate.swift in Sources */,
+				95A5E1B82B6022C400DD2ED4 /* LiveTextDisableViewController.swift in Sources */,
 				95A5E1922B60188200DD2ED4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
